@@ -36,6 +36,9 @@ to eat-grass
       set pcolor black
       set energy energy + 10
     ]
+    ifelse show-energy?
+      [ set label energy ]
+      [ set label "" ]
   ]
 end
 @#$#@#$#@
@@ -121,6 +124,17 @@ count patches with [pcolor = green]
 17
 1
 11
+
+SWITCH
+32
+376
+173
+409
+show-energy?
+show-energy?
+0
+1
+-1000
 
 @#$#@#$#@
 ## WHAT IS IT?
