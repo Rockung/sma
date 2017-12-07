@@ -8,6 +8,7 @@ to setup
 end
 
 to go
+  if ticks >= 500 [ stop ]
   move-turtles
   eat-grass
   reproduce
