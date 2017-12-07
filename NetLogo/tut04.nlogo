@@ -38,7 +38,7 @@ to eat-grass
   ask turtles [
     if pcolor = green [
       set pcolor black
-      set energy energy + 10
+      set energy energy + energy-from-grass
     ]
     ifelse show-energy?
       [ set label energy ]
@@ -48,9 +48,9 @@ end
 
 to reproduce
   ask turtles [
-    if energy > 50 [
-      set energy energy - 50
-      hatch 1 [ set energy 50 ]
+    if energy > birth-energy [
+      set energy energy - birth-energy
+      hatch 1 [ set energy birth-energy ]
     ]
   ]
 end
@@ -68,9 +68,9 @@ to regrow-grass
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
-228
+236
 10
-665
+673
 448
 -1
 -1
@@ -129,10 +129,10 @@ NIL
 0
 
 MONITOR
-46
-79
-149
-124
+12
+67
+115
+112
 NIL
 count turtles
 17
@@ -140,10 +140,10 @@ count turtles
 11
 
 MONITOR
-47
-140
-150
-185
+120
+68
+223
+113
 green patches
 count patches with [pcolor = green]
 17
@@ -151,10 +151,10 @@ count patches with [pcolor = green]
 11
 
 SWITCH
-30
-204
-171
-237
+43
+192
+184
+225
 show-energy?
 show-energy?
 1
@@ -179,6 +179,36 @@ true
 PENS
 "turtles" 1.0 0 -16777216 true "" "plot count turtles"
 "grass" 1.0 0 -10899396 true "" "plot count patches with [pcolor = green]"
+
+SLIDER
+26
+122
+198
+155
+energy-from-grass
+energy-from-grass
+0
+20
+10.0
+1
+1
+NIL
+HORIZONTAL
+
+SLIDER
+26
+157
+198
+190
+birth-energy
+birth-energy
+0
+100
+50.0
+1
+1
+NIL
+HORIZONTAL
 
 @#$#@#$#@
 ## WHAT IS IT?
