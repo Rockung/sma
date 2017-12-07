@@ -67,9 +67,9 @@ to regrow-grass
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
-210
+228
 10
-647
+665
 448
 -1
 -1
@@ -94,10 +94,10 @@ ticks
 30.0
 
 BUTTON
-37
-58
-103
-91
+28
+21
+94
+54
 NIL
 setup
 NIL
@@ -111,10 +111,10 @@ NIL
 1
 
 BUTTON
-120
-58
-183
-91
+111
+21
+174
+54
 NIL
 go
 T
@@ -128,10 +128,10 @@ NIL
 0
 
 MONITOR
-48
-251
-151
-296
+46
+79
+149
+124
 NIL
 count turtles
 17
@@ -139,10 +139,10 @@ count turtles
 11
 
 MONITOR
-49
-312
-152
-357
+47
+140
+150
+185
 green patches
 count patches with [pcolor = green]
 17
@@ -150,15 +150,34 @@ count patches with [pcolor = green]
 11
 
 SWITCH
-32
-376
-173
-409
+30
+204
+171
+237
 show-energy?
 show-energy?
 1
 1
 -1000
+
+PLOT
+16
+264
+216
+414
+Totals
+time
+totals
+0.0
+10.0
+0.0
+10.0
+true
+true
+"" ""
+PENS
+"turtles" 1.0 0 -16777216 true "" "plot count turtles"
+"grass" 1.0 0 -10899396 true "" "plot count patches with [pcolor = green]"
 
 @#$#@#$#@
 ## WHAT IS IT?
