@@ -1,0 +1,14 @@
+Recognizing and Learning Object Categories
+http://people.csail.mit.edu/torralba/shortCourseRLOC/index.html
+
+FLANN - Fast Library for Approximate Nearest Neighbors
+http://www.cs.ubc.ca/research/flann/
+
+Point Cloud Library
+http://www.pointclouds.org/about/
+
+t-SNE完整笔记
+http://www.datakit.cn/blog/2017/02/05/t_sne_full.html
+
+从SNE到t-SNE再到LargeVis
+http://bindog.github.io/blog/2016/06/04/from-sne-to-tsne-to-largevis/
