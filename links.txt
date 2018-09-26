@@ -12,3 +12,9 @@ http://www.datakit.cn/blog/2017/02/05/t_sne_full.html
 
 从SNE到t-SNE再到LargeVis
 http://bindog.github.io/blog/2016/06/04/from-sne-to-tsne-to-largevis/
+
+为什么现在的CNN模型都是在GoogleNet、VGGNet或者AlexNet上调整的？
+https://www.zhihu.com/question/43370067#answer-47073574
+
+YOLO: Real-Time Object Detection
+https://pjreddie.com/darknet/yolo/
