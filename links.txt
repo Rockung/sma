@@ -18,3 +18,8 @@ https://www.zhihu.com/question/43370067#answer-47073574
 
 YOLO: Real-Time Object Detection
 https://pjreddie.com/darknet/yolo/
+
+Image Captioning
+Explain Images with Multimodal Recurrent Neural Network, Mao et al.
+Deep Visual-Semantic Alignments for Generating Image Descriptions, Karpathy and Fei-Fei
+Show and Tell: A Neural Image Caption Generator, Vinyals et al.
