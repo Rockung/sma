@@ -23,3 +23,8 @@ Image Captioning
 Explain Images with Multimodal Recurrent Neural Network, Mao et al.
 Deep Visual-Semantic Alignments for Generating Image Descriptions, Karpathy and Fei-Fei
 Show and Tell: A Neural Image Caption Generator, Vinyals et al.
+
+Understanding the backward pass through Batch Normalization Layer
+https://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html
+https://zhuanlan.zhihu.com/p/31928979
+http://cthorey.github.io./backpropagation/
