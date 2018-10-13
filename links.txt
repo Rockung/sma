@@ -28,3 +28,6 @@ Understanding the backward pass through Batch Normalization Layer
 https://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html
 https://zhuanlan.zhihu.com/p/31928979
 http://cthorey.github.io./backpropagation/
+
+Recurrent Neural Networks Tutorial, Part 1 – Introduction to RNNs
+http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/
