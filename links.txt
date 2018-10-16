@@ -31,3 +31,9 @@ http://cthorey.github.io./backpropagation/
 
 Recurrent Neural Networks Tutorial, Part 1 – Introduction to RNNs
 http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/
+
+Trained image classification models for Keras
+https://github.com/fchollet/deep-learning-models
+
+Pretrained models with torchvision
+https://github.com/pytorch/vision
