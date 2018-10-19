@@ -37,3 +37,6 @@ https://github.com/fchollet/deep-learning-models
 
 Pretrained models with torchvision
 https://github.com/pytorch/vision
+
+Graphically Determining Backpropagation Equations
+http://practicalcryptography.com/miscellaneous/machine-learning/graphically-determining-backpropagation-equations/
